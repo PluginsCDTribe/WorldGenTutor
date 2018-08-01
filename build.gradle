@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'com.ilummc.tutor'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+defaultTasks 'clean', 'build'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://bkm016.github.io/TabooLib/repo/' }
+    maven { url 'https://hub.spigotmc.org/nexus/content/groups/public/' }
+}
+
+dependencies {
+    compile 'org.spigotmc:spigot-api:1.13-R0.1-SNAPSHOT'
+}
