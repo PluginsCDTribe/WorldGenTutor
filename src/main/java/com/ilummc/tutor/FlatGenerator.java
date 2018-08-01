@@ -6,7 +6,7 @@ import org.bukkit.generator.ChunkGenerator;
 
 import java.util.Random;
 
-public class TutorChunkGenerator extends ChunkGenerator {
+public class FlatGenerator extends ChunkGenerator {
 
     @Override
     public ChunkData generateChunkData(World world, Random random, int x, int z, BiomeGrid biome) {

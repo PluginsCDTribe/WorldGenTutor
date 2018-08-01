@@ -9,7 +9,7 @@ public class WorldGenTutor extends JavaPlugin {
     public ChunkGenerator getDefaultWorldGenerator(String worldName, String id) {
         switch (id) {
             case "flat":
-                return new TutorChunkGenerator();
+                return new FlatGenerator();
             default:
                 return null;
         }
