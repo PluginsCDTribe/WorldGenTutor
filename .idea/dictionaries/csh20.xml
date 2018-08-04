@@ -2,6 +2,8 @@
   <dictionary name="csh20">
     <words>
       <w>biome</w>
+      <w>populator</w>
+      <w>voronoi</w>
     </words>
   </dictionary>
 </component>
