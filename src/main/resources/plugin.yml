@@ -1,6 +1,9 @@
 main: com.ilummc.tutor.WorldGenTutor
 name: WorldGenTutor
-version: 1.0
+version: '1.0'
 author: IzzelAliz
-api-version: 1.13
-load: startup
+api-version: '1.13'
+load: STARTUP
+commands:
+  wgt:
+    usage: 'wgt'
